@@ -1,0 +1,218 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 27 key-value pairs.
+Below are 10 of them:
+ 1 key:     resnet_uploaded-images.txt  label:     resnet uploaded-images
+ 2 key:    alexnet_uploaded-images.txt  label:    alexnet uploaded-images
+ 3 key:        vgg_uploaded-images.txt  label:        vgg uploaded-images
+ 4 key:            run_models_batch.sh  label:           run models batch
+ 5 key:                   dognames.txt  label:                   dognames
+ 6 key:                     pet_images  label:                 pet images
+ 7 key:             classify_images.py  label:            classify images
+ 8 key:             test_classifier.py  label:            test classifier
+ 9 key:   run_models_batch_uploaded.sh  label:  run models batch uploaded
+10 key:       classify_images_hints.py  label:      classify images hints
+
+     MATCH:
+
+ NOT A MATCH:
+
+    resnet_uploaded-images.txt: 
+Real:     resnet uploaded-images   Classifier:                               
+
+   alexnet_uploaded-images.txt: 
+Real:    alexnet uploaded-images   Classifier:                               
+
+       vgg_uploaded-images.txt: 
+Real:        vgg uploaded-images   Classifier:                               
+
+           run_models_batch.sh: 
+Real:           run models batch   Classifier:                               
+
+                  dognames.txt: 
+Real:                   dognames   Classifier:                               
+
+                    pet_images: 
+Real:                 pet images   Classifier:                               
+
+            classify_images.py: 
+Real:            classify images   Classifier:                               
+
+            test_classifier.py: 
+Real:            test classifier   Classifier:                               
+
+  run_models_batch_uploaded.sh: 
+Real:  run models batch uploaded   Classifier:                               
+
+      classify_images_hints.py: 
+Real:      classify images hints   Classifier:                               
+
+       get_input_args_hints.py: 
+Real:       get input args hints   Classifier:                               
+
+       get_pet_labels_hints.py: 
+Real:       get pet labels hints   Classifier:                               
+
+                 classifier.py: 
+Real:                 classifier   Classifier:                               
+
+   calculates_results_stats.py: 
+Real:   calculates results stats   Classifier:                               
+
+               check_images.py: 
+Real:               check images   Classifier:                               
+
+              check_images.txt: 
+Real:               check images   Classifier:                               
+
+        print_results_hints.py: 
+Real:        print results hints   Classifier:                               
+
+             get_pet_labels.py: 
+Real:             get pet labels   Classifier:                               
+
+              print_results.py: 
+Real:              print results   Classifier:                               
+
+imagenet1000_clsid_to_human.txt: 
+Real: imagenet1000 clsid to human   Classifier:                               
+
+                   __pycache__: 
+Real:                    pycache   Classifier:                               
+
+adjust_results4_isadog_hints.py: 
+Real: adjust results4 isadog hints   Classifier:                               
+
+calculates_results_stats_hints.py: 
+Real: calculates results stats hints   Classifier:                               
+
+             get_input_args.py: 
+Real:             get input args   Classifier:                               
+
+               uploaded_images: 
+Real:            uploaded images   Classifier:                               
+
+print_functions_for_lab_checks.py: 
+Real: print functions for lab checks   Classifier:                               
+
+     adjust_results4_isadog.py: 
+Real:     adjust results4 isadog   Classifier:                               
+
+# Total Images 27 # Matches: 0 # NOT Matches: 27
+
+     MATCH:
+
+ NOT A MATCH:
+
+    resnet_uploaded-images.txt: 
+Real:     resnet uploaded-images   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+   alexnet_uploaded-images.txt: 
+Real:    alexnet uploaded-images   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+       vgg_uploaded-images.txt: 
+Real:        vgg uploaded-images   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+           run_models_batch.sh: 
+Real:           run models batch   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+                  dognames.txt: 
+Real:                   dognames   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    pet_images: 
+Real:                 pet images   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+            classify_images.py: 
+Real:            classify images   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+            test_classifier.py: 
+Real:            test classifier   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+  run_models_batch_uploaded.sh: 
+Real:  run models batch uploaded   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+      classify_images_hints.py: 
+Real:      classify images hints   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+       get_input_args_hints.py: 
+Real:       get input args hints   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+       get_pet_labels_hints.py: 
+Real:       get pet labels hints   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+                 classifier.py: 
+Real:                 classifier   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+   calculates_results_stats.py: 
+Real:   calculates results stats   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+               check_images.py: 
+Real:               check images   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+              check_images.txt: 
+Real:               check images   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+        print_results_hints.py: 
+Real:        print results hints   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+             get_pet_labels.py: 
+Real:             get pet labels   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+              print_results.py: 
+Real:              print results   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+imagenet1000_clsid_to_human.txt: 
+Real: imagenet1000 clsid to human   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   __pycache__: 
+Real:                    pycache   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+adjust_results4_isadog_hints.py: 
+Real: adjust results4 isadog hints   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+calculates_results_stats_hints.py: 
+Real: calculates results stats hints   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+             get_input_args.py: 
+Real:             get input args   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+               uploaded_images: 
+Real:            uploaded images   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+print_functions_for_lab_checks.py: 
+Real: print functions for lab checks   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+     adjust_results4_isadog.py: 
+Real:     adjust results4 isadog   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 27 # Matches: 0 # NOT Matches: 27
