@@ -61,7 +61,7 @@ def main():
     # This function creates the results dictionary that contains the results, 
     # this dictionary is returned from the function call as the variable results
     
-    results = get_pet_labels(None)
+    results = get_pet_labels()
 
     # Function that checks Pet Images in the results Dictionary using results    
     check_creating_pet_image_labels(results)
@@ -114,7 +114,7 @@ def main():
     #      print_results(results, results_stats, in_arg.arch, True, True)
     # Prints summary results, incorrect classifications of dogs (if requested)
     # and incorrectly classified breeds (if requested)
-    print_results(results, results_stats, None, True, True)
+    print_results(results, results_stats, in_arg.arch, True, True)
     
     # TODO 0: Measure total program runtime by collecting end time
     end_time = time()
