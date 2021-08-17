@@ -21,9 +21,7 @@
 #             --dogfile <file that contains dognames>
 #   Example call:
 #    python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt
-##
-
-# Imports python modules
+##    
 from time import time, sleep
 
 # Imports print functions that check the lab

@@ -50,8 +50,23 @@ def get_pet_labels(image_dir):
        
        if in_files[idx][0] != ".":
            
-           
            pet_label = ""
+
+           pet_label = in_files[idx]
+#             # Sets all characters in 'pet_image' to lower case 
+           pet_label_lower = pet_label.lower()
+#             # Creates list called 'pet_image_word_list' that contains every element in pet_image_lower seperated by '_'
+           pet_label_word_list = pet_label_lower.split("_")
+#             # Creates temporary variable 'pet_label' to hold pet label name extracted starting as empty string
+           pet_label_alpha = ""
+
+           for letter in pet_label_word_list:
+               if letter.isalpha():
+
+                   pet_label_alpha += letter + " "
+#             # Removes possible leading or trailing whitespace characters from 'pet_pet_image_alpha' and add stores final label as 'pet_label' 
+           pet_label = pet_label_alpha.strip()
+           
 
            # TODO: 2a. BELOW REPLACE pass with CODE that will process each 
            #          filename in the in_files list to extract the dog breed 
@@ -59,14 +74,11 @@ def get_pet_labels(image_dir):
            #          accessed by in_files[idx]. Be certain to place the 
            #          extracted dog breed name in the variable pet_label 
            #          that's created as an empty string ABOVE
-           
-           pet_label=in_files[idx].replace('_',' ').split('.')[0].strip().lower()
            if in_files[idx] not in results_dic:
                  results_dic[in_files[idx]] = [pet_label]
              
            else:
-               print("** Warning: Duplicate files exist in directory:", 
-                          in_files[idx])
+               print("** Warning: Duplicate files exist in directory:", in_files[idx])
     return results_dic
 
-get_pet_labels('pet_images')
+# get_pet_labels('pet_images')
