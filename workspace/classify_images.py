@@ -74,7 +74,9 @@ def classify_images(images_dir, results_dic, model):
        #  Runs classifier function to classify the images classifier function 
        # inputs: path + filename  and  model, returns model_label 
        # as classifier label
-       model_label = ""
+      #  model_label = ""
+       model_label = classifier(images_dir + key, model)
+
 #        model_label=classifier(images_dir+key,model)
        # TODO: 3b. BELOW REPLACE pass with CODE to process the model_label to 
        #           convert all characters within model_label to lowercase 
@@ -99,7 +101,7 @@ def classify_images(images_dir, results_dic, model):
        # If the pet image label is found within the classifier label list of terms 
        # as an exact match to on of the terms in the list - then they are added to 
        # results_dic as an exact match(1) using extend list function
-       if key in model_label:       
+       if truth in model_label:       
           results_dic[key].extend([model_label,1])
 
        # TODO: 3d. REPLACE pass BELOW with CODE that uses the extend list function
@@ -113,4 +115,4 @@ def classify_images(images_dir, results_dic, model):
        else:
           results_dic[key].extend([model_label,0])
 
-    None 
+    return None 
